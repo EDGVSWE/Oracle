@@ -29,15 +29,15 @@ GROUP BY d.department_name;
 
 查询结果：
 
-![图片1](../image/1.png)
+![图片1](./image/1.png)
 
 解释计划：
 
-![图片2](../image/2.png)
+![图片2](./image/2.png)
 
 SQL优化指导：
 
-![图片3](../image/3.png)
+![图片3](./image/3.png)
 
 - 查询2：
 
@@ -54,15 +54,15 @@ HAVING d.department_name in ('IT','Sales');
 
 查询结果：
 
-![图片4](../image/4.png)
+![图片4](./image/4.png)
 
 解释计划：
 
-![图片5](../image/5.png)
+![图片5](./image/5.png)
 
 SQL优化指导：
 
-![图片6](../image/6.png)
+![图片6](./image/6.png)
 
 第二条语句未给出优化建议
 
@@ -78,15 +78,15 @@ HAVING r.region_name in ('Asia','Europe');
 
 查询结果：
 
-![图片7](../image/7.png)
+![图片7](./image/7.png)
 
 解释计划：
 
-![图片8](../image/8.png)
+![图片8](./image/8.png)
 
 SQL优化指导：
 
-![图片9](../image/9.png)
+![图片9](./image/9.png)
 
 优化指导未给出优化建议
 
